@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    font-family: gilroy;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    overflow-y:hidden;
+}
+
+#left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-size: cover;
+    background-position:center;
+}
+
+#left img{
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    height: 60px;
+    width: 80px;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar1{
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    position: relative;
+    height: 55px;
+    width: 100%;
+    background-color: #dadada00;
+}
+
+#navbar1 a{
+    color: black;
+    text-decoration: none;
+    font-family: gilroy;
+    font-size: 20px;
+}
+
+#navbar2{
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    position: relative;
+    height: 55px;
+    width: 100%;
+    gap: 30px;
+    background-color: #C01021;
+}
+
+#navbar2 a{
+    color: rgba(255, 255, 255, 0.957);
+    text-decoration: none;
+    font-family: gilroy;
+    font-size: 20px;
+}
+
+#navbar2i{
+    display: flex;
+    gap: 30px;
+    padding-left: 50%;
+}
+
+#navbar2i i{
+    margin-top: 1%;
+    color: aliceblue;
+}
+
+#overlayl{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.09) ;
+}
+
+#overlayl img{
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    height: 350px;
+    width:450px;
+    opacity: .89;
+}
+
+#overlayr{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 38, 38, 0.234);
+}
+
+#overlayr img{
+    position: absolute;
+    left: -15%;
+    top: 21.4%;
+    height: 400px;
+    width:400px;
+    opacity: .89;
+}
+
+#textl{
+    color: rgba(10, 10, 10, 0.897);
+    text-align: center;
+    font-family: "montserrat";
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#textl button{
+    border-radius: 10px;
+}
+
+#just{
+    color: rgba(10, 10, 10, 0.941);
+    text-align: center;
+    font-family: "Monaco";
+    position: absolute;
+    top: 55%;
+    left: 91%;
+    transform: translate(-50%,-50%);
+}
+
+#just h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+#doIt{
+    color: rgba(251, 249, 249, 0.954);
+    text-align: center;
+    font-family: "Monaco";
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+}
+
+#doIt h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+#textr{
+    color: aliceblue;
+    text-align: center;
+    font-family: "Montserrat";
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#textr button{
+    border-radius: 10px;
+}
+
+#textl h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+#textl h2{
+    top: 50%;
+    left: 100%;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 50%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+#textr h1{
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+#textl p{
+    font-family: gilroy;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 90%;
+}
+
+
+#textr p{
+    font-family: gilroy;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 76%;
+}
+
+#overlayl button{
+    
+    width:130px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+#overlayl button:hover{
+    background-color: rgb(10, 9, 9);
+    color: rgba(238, 222, 222, 0.67);
+    /* height: 45px; */
+}
+
+#overlayr button{
+    
+    width:130px;
+    height: 40px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.856);
+    border: 2px solid rgb(242, 237, 237);
+}
+
+#overlayr button:hover{
+    background-color: rgba(233, 224, 224, 0.913);
+    color: rgba(17, 16, 16, 0.821);
+}
+
+#image{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 10%;
+    height: 5%;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/564x/2f/76/9f/2f769f7217118c791e41dae0ab471ed0.jpg);
+    background-position: center;
+}
